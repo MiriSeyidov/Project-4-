@@ -11,15 +11,9 @@ body {
 
 header {
     grid: H;
-    background-color: rgb(238, 45, 77);
-    height: 450px;
+    background-color: #430A5D;
+    height: 500px;
 }
-
-
-footer {
-    grid: F;
-}
-
 
 
 nav.navv a {
@@ -39,9 +33,9 @@ nav.navv a:hover {
 
 
 
-h1 {
+h1.firsth1 {
 font-size: 64px;
-margin-top: 128px;
+margin-top: 160px;
 text-align: center;
 color: white;
 }
@@ -54,20 +48,24 @@ text-align: center;
 
 
 
-nav.navvv a {
+a.aaa {
     background-color: black;
     padding: 16px 32px;
     text-decoration: none;
-    text-align: center;
     color: white;
     display: inline-block;
     margin-top: 32px;
+    text-align: center;
 
 }
 
-nav.navvv a:hover {
+div.alittle a:hover {
     background-color: lightgray;
     color: black;
+}
+
+div.alittle {
+    text-align: center;
 }
 
 
@@ -77,5 +75,95 @@ nav.navvv a:hover {
 
 main {
     grid: M;
+
     
 }
+
+h2 {
+    font-size: 40px;
+}
+
+p,b {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+div.head1, div.head2 {
+    padding: 48px 192px;
+    display: flex;
+}
+
+div.head3 {
+    padding: 48px 192px;
+}
+
+
+div.head1 div.left {
+flex: 7;
+}
+
+div.head1 div.right {
+flex: 3;
+}
+
+
+img {
+    margin-top: 50px;
+    width: 300px;
+}
+
+div.head2 {
+    background-color: #f2dff9;
+}
+
+div.head2 div.left {
+    flex: 3;
+    }
+    
+div.head2 div.right {
+    flex: 7;
+    }
+
+    h1.secondh1 {
+     font-size: 40px;   
+    }
+
+    div.head3 {
+        background-color: #7f6f84;
+        text-align: center;
+        color: white;
+    }
+
+
+    footer {
+        grid: F;
+
+    }
+
+    footer img {
+        margin-top:80px;
+        width: 40px;
+    }
+
+    footer image:hover {
+        opacity: 0.1;
+    }
+
+    footer p {
+        margin-bottom: 50px;
+    }
+
+    footer div {
+        text-align: center;
+
+    }
+    
+
+    
+    
