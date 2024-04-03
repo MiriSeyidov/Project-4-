@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: 
+    'H'
+    'M'
+    'F';
+    font-family: monospace;
+    box-sizing: 0;
+}
+
+header {
+    grid: H;
+    background-color: rgb(238, 45, 77);
+    height: 450px;
+}
+
+
+footer {
+    grid: F;
+}
+
+
+
+nav.navv a {
+    display: float;
+    float: left;
+    padding: 16px 24px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+nav.navv a:hover {
+    background-color: white;
+    color: black
+}
+
+
+
+h1 {
+font-size: 64px;
+margin-top: 128px;
+text-align: center;
+color: white;
+}
+
+h3 {
+font-size: 24px;
+color: white;
+text-align: center;
+}
+
+
+
+nav.navvv a {
+    background-color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-top: 32px;
+
+}
+
+nav.navvv a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
+
+
+
+
+main {
+    grid: M;
+    
+}
